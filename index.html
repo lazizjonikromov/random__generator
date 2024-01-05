@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Generator of Numbers</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+</head>
+<body>
+    <div class="container p-4 mt-4">
+        <div class="row align-items-center">
+            <div class="col text-center">
+                <h3>HTML & CSS & JS</h3>
+                <h1>Random Generator of Numbers</h1>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <label for="min" class="form-label">Min</label>
+                        <input type="number" id="min" class="form-control">
+                    </div>
+                    <div class="col">
+                        <label for="max" class="form-label">Max</label>
+                        <input type="number" id="max" class="form-control">
+                    </div>
+                </div>
+
+                <div class="d-grid">
+                    <button type="button" class="btn btn-primary mt-4 btn-block" id="generate">Generate</button>
+                </div>
+
+                <h1 class="mt-3 text-center" id="placeholder">
+                    #
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
